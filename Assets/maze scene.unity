@@ -804,6 +804,7 @@ GameObject:
   - component: {fileID: 744702657}
   - component: {fileID: 744702656}
   - component: {fileID: 744702655}
+  - component: {fileID: 744702659}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -843,7 +844,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 70.9
+  field of view: 78
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -874,6 +875,19 @@ Transform:
   m_Father: {fileID: 1877111913}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &744702659
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744702654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 7.0464754
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.763433, z: 0}
 --- !u!1 &870742659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1202,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 904673850}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 14.09, y: -8.34, z: 5.01}
+  m_LocalPosition: {x: 3.87, y: 4.36, z: -3.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2435,7 +2449,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1877111913}
   - component: {fileID: 1877111915}
-  - component: {fileID: 1877111914}
   - component: {fileID: 1877111916}
   m_Layer: 0
   m_Name: GameObject
@@ -2451,26 +2464,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1877111912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.094, y: 8.801, z: 0.511}
+  m_LocalPosition: {x: 0.094, y: 3.885, z: 0.511}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 744702658}
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1877111914
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1877111912}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.13123292
-  m_Height: 0.7479868
-  m_Direction: 1
-  m_Center: {x: -0.23300868, y: -0.1260066, z: 0.110485196}
 --- !u!54 &1877111915
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2727,7 +2727,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 504259e51f6874edb851878add10c8df, type: 2}
+  - {fileID: 2100000, guid: 92883700959ad49b1911b1bc190a8ae4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
